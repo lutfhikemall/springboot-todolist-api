@@ -28,9 +28,10 @@ Welcome! This project actually is made for learning bloc state management on flu
    ```sh
    mvn install
    ```
-3. Copy `application-tes.properties` to `application.properties` and fill in the values
+3. Copy `application-test.properties` to `application.properties` and fill in the values
    ```sh
-   cp application-tes.properties application.properties
+   cd src/main/resources
+   cp application-test.properties application.properties
    ```
 4. Run the development server
    ```sh
